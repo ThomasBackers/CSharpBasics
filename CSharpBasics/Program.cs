@@ -360,6 +360,16 @@ namespace CSharpBasics
             //12.3 STATIC CLASSES
             // Math myMath = new Math(); this is impossible: Math is a static class (see UsefulTools.cs)
 
+            //12.4 INHERITANCE
+            Chef chef = new Chef();
+            chef.MakeChicken();
+            chef.MakeSpecialDish();
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeChicken();
+            italianChef.MakePasta();
+            italianChef.MakeSpecialDish();
+
             Console.ReadLine();
         }
         // #6 METHODS *
