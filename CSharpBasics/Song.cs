@@ -20,5 +20,10 @@ namespace CSharpBasics
             this.duration = aDuration;
             songCount++;
         }
+
+        public int GetSongCount()
+        {
+            return songCount;
+        }
     }
 }

@@ -349,8 +349,16 @@ namespace CSharpBasics
 
             Console.WriteLine(Song.songCount);
             Console.WriteLine(holiday.artist);
+            Console.WriteLine(holiday.GetSongCount()); // a method allows us to access class attribute from objects
             Console.WriteLine(kashmir.artist);
             Console.WriteLine(Song.songCount);
+
+            //12.2 STATIC METHODS
+            Console.WriteLine(Math.Sqrt(144)); // this is a static method: no need to create an instance
+            UsefulTools.SayHi("Mario");
+
+            //12.3 STATIC CLASSES
+            // Math myMath = new Math(); this is impossible: Math is a static class (see UsefulTools.cs)
 
             Console.ReadLine();
         }
